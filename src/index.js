@@ -1,9 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
+import { MainApp } from './components/09-useContext/MainApp';
 // import { RealExample } from './components/04-useRef/RealExample';
 // import { Padre } from './components/07-tarea-memo/Padre';
-import { TodoApp } from './components/08-intro-reducer/TodoApp';
+// import { TodoApp } from './components/08-intro-reducer/TodoApp';
 // import { FocusScreen } from './components/04-useRef/FocusScreen';
 // import { MultipleCustomHook } from './components/02-useEffect/MultipleCustomHook'; 
 /* import { HooksApp } from './HooksApp'; */
@@ -13,6 +14,6 @@ import { SimpleForm } from './components/02-useEffect/SimpleForm'; */
 // import { FormWithCustomHook } from './components/02-useEffect/FormWithCustomHook';
 
 ReactDOM.render(
-  <TodoApp />,
+  <MainApp />,
   document.getElementById('root')
 );
